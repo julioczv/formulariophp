@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, rgb(17, 54, 71), rgb(6, 10, 54));
+}
+
+.box {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+}
+
+.container {
+    padding-bottom: 20px;
+
+}
+
+
+.container label {
+    padding-right: 40px;
+
+}
+
+.nome {
+    padding-bottom: 20px;
+}
+
+.nome label {
+    padding-right: 30px;
+}
+
+fieldset{
+    border: 3px solid darkblue;
+}
+
+legend {
+    border: 1px solid darkblue;
+    padding: 10px;
+    text-align: center;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+}
+
+.container .form-input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+}
+
+#forminput {
+    background-image: linear-gradient(to right, rgb(0, 92, 197), darkblue);
+    width: 40%;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#forminput:hover {
+    background: none;
+}
+
+
+img {
+    display: block;
+    margin: 0px auto;
+    width: 60vh;
+}
+
+@media screen and (max-width: 768px){
+
+    fieldset {
+        padding: 30px;
+    }
+    form{
+        padding-top: 100px;
+    }
+    
+}
+
+@media screen and (max-width: 1200px){
+    img {
+        width: 50vh;
+    }
+    fieldset {
+        padding: 30px;
+
+    }
+    form{
+        padding-top: 60px;
+    }
+}
+
